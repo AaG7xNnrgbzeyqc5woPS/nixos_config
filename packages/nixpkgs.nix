@@ -80,6 +80,8 @@
     unrar
 
     # apps
+    # tor
+    tor-browser-bundle-bin
     firefox
     google-chrome
 #    googleearth-pro
@@ -205,9 +207,7 @@ ORSA：ORSA是一个支持交互操作的天体力学工具，可以对小行星
   # 第二大脑，知识图谱管理
   #  obsidian， # 下载 appimage 格式最新版可以用。这个nixos版本有些老
 
-  #匿名网络
-  #tor
-  
+ 
   ];
 
 #------------------------------------------------------------

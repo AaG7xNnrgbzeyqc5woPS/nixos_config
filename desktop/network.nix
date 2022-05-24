@@ -30,8 +30,8 @@
 #    interfaces.wlp2s0.useDHCP = true;
     
     # Configure network proxy if necessary
-    proxy.default = "sock5://192.168.2.2";
-    proxy.noProxy  = "127.0.0.1,192.168.2.1,192.168.2.2,localhost,192.168.*.*";
+    proxy.default = "http://192.168.2.2:9995";
+    proxy.noProxy  = "127.0.0.1,localhost,192.168.*.*";
   
   };
 
