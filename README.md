@@ -5,6 +5,7 @@ my nixos_config
 set up proxy for nixos install or rebuild
 Must run this shell script before upgrade or rebuild
 ```
+# source set_proxy_http.sh
 # nixos-rebuild build --upgrade
 # nixos-rebuild build
 # nixos-rebuild switch
