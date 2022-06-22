@@ -9,9 +9,10 @@
     ./network.nix
     ./gnome.nix   #Very good! test ok! 2021.9.18
 #    ./pantheon.nix
-    ./system.nix
+#    ./system.nix
     ./users.nix
     ./virtualisation.nix
-    ./syncthing.nix
+#    ./syncthing.nix
+    ./upgrade.nix
  ];
 }
