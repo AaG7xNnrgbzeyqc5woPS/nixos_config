@@ -5,5 +5,8 @@ export http_proxy="$proxy_url"
 export HTTP_PROXY="$proxy_url"
 export https_proxy="$proxy_url"
 export HTTPS_PROXY="$proxy_url"
+export all_proxy="$proxy_url"
+export rsync_proxy="$proxy_url"
+
 export CURL_NIX_FLAGS="-x $proxy_url"
 env | grep http
