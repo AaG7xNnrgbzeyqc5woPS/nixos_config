@@ -7,10 +7,11 @@
   nixpkgs.config.permittedInsecurePackages = [
     "ffmpeg-3.4.8"
     "libav-12.3"
-    "electron-14.2.9"
+    "electron-14.2.3"
+
+
   ];
     
-
 
 #---------------------------------------------------------
 # https://search.nixos.org/packages
@@ -37,11 +38,13 @@
     pciutils
     tree
     cifs-utils
+    iputils
+    inetutils
 
     #ibus-engines.libpinyin 
 #    python39Packages.py-cpuinfo    
 
-    ping
+#    ping
 /*  暂时用不到
     pingtcp
     gping
