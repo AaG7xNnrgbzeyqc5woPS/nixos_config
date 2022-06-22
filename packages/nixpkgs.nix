@@ -37,7 +37,8 @@
     pciutils
     tree
     cifs-utils
- 
+
+    #ibus-engines.libpinyin 
 #    python39Packages.py-cpuinfo    
 
     ping
@@ -71,7 +72,7 @@
     tmux
     wget
     curl
-    ffmpeg #提示不安全
+    ffmpeg         #提示不安全
     patchelf
     git
     zip
@@ -83,13 +84,13 @@
     # tor
     tor-browser-bundle-bin
     firefox
-    google-chrome
+#    google-chrome
 #    googleearth-pro
 #    gcc
 #    gdb
 #    gh
 #    vscode
-     vscode-fhs
+#     vscode-fhs # testing is good!
 #    keepass # 打包后对控件的支持不好，而且不是linux原生，现在迁移到keepassxc非常满意，符合本人全部的需求，特别是原生支持topt
     
     # https://search.nixos.org/packages?channel=21.11&show=dotnet-sdk_5&from=0&size=50&sort=relevance&type=packages&query=net+5
@@ -109,17 +110,19 @@
     anki  # https://www.linuxlinks.com/Flashcard/
     #rPackages.rosetta
 #    syncthing  # 暂时不用，这个很好用，暂时不需要，多个设备同步。   
-    nextcloud-client
+    # nextcloud-client
 #    birdtray  #用不了，启动后提示出错
 #    thunderbird
 
+    session-desktop-appimage
     skypeforlinux
     teams
     zoom-us
     
     #电子书管理软件
-    calibre
-    calibre-web
+    # tested ok! 
+    #calibre
+    #calibre-web
 
     
 #    pidgin
@@ -192,17 +195,17 @@ ORSA：ORSA是一个支持交互操作的天体力学工具，可以对小行星
 
 # https://www.linuxlinks.com/Astronomy/
 */
-   celestia
-   stellarium
+   # celestia #test ok!
+   # stellarium #test ok!
   
 #---------------------------------
 #  https://www.linuxlinks.com/EducationalGames/
   gcompris  # A high quality educational software suite, including a large number of activities for children aged 2 to 10
   colobot   # Colobot: Gold Edition is a real-time strategy game, where you can program your bots
-  pianobooster #A MIDI file player that teaches you how to play the piano  
+  # pianobooster #A MIDI file player that teaches you how to play the piano  
 
   # 媒体播放
-  #kodi 可以装，用不上
+  #kodi 可以装，用不上,
 
   # 第二大脑，知识图谱管理
   #  obsidian， # 下载 appimage 格式最新版可以用。这个nixos版本有些老

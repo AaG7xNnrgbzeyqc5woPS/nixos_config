@@ -21,18 +21,18 @@
 
 
   i18n.inputMethod = {
-    # enabled = "fcitx5";
-    # fcitx5.addons = with pkgs; [
-    #   fcitx5-rime
-    #   fcitx5-chinese-addons
-    # ];
+    enabled = "fcitx5";
+    fcitx5.addons = with pkgs; [
+      fcitx5-rime
+      fcitx5-chinese-addons
+    ];
 
     # 我现在用 ibus
-    enabled = "ibus";
-    ibus.engines = with pkgs.ibus-engines; [
-      libpinyin
-      rime
-    ];
+#    enabled = "ibus";
+#    ibus.engines = with pkgs.ibus-engines; [
+#      libpinyin
+#      rime
+#    ];
   };
 
 

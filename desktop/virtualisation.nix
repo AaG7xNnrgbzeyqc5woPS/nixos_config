@@ -4,12 +4,11 @@
 
 
   virtualisation = {
-
-/*    virtualbox.host = { 
+    virtualbox.host = { 
       enable = true; 
       enableExtensionPack = true; 
     };
-*/
+
 
 
 #    docker = {
@@ -17,10 +16,10 @@
 #      enableOnBoot = false;
 #    };
 
-    podman = {
-      enable = true;
-      dockerCompat = true;
-    };
+#    podman = {
+#      enable = true;
+#      dockerCompat = true;
+#    };
   };
 
   
