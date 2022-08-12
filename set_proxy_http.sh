@@ -1,6 +1,7 @@
 #  Execute this shell script only run:
 # source set_proxy_http.sh
-proxy_url="http://192.168.2.2:9995/"
+# proxy_url="http://192.168.2.2:9995/"
+proxy_url="http://10.63.55.238:9995/"	 
 export http_proxy="$proxy_url"
 export HTTP_PROXY="$proxy_url"
 export https_proxy="$proxy_url"
